@@ -22,3 +22,25 @@ mystr[2:5] => 'cde' - prints from index 2(including) upto index 5(excluding)
 mystr[2:7:2] => 'ceg' - Last column value indicates step size . That means it will jump 2 values between index 2 and 7.
 
 mystr[::-1] => Revrses the string
+
+# String ummutability 
+
+mystr = "Manish"
+mystr[0]= "K" => Will throw error
+
+# String Concatenation
+fname = "Manish"
+lname = "Singh"
+
+name = fname+lname => Manish Singh
+
+letter = z 
+letter*10 => zzzzzzzzzz - Prints z 10 times.
+
+"2" + "3" => 23 - Remember its string Concatenation
+
+mystr = "Hello, This is a beautiful world"
+mystr.split()  - Returns a list of Strings. 
+['Hello,', 'This', 'is', 'a', 'beautiful', 'world']
+
+
