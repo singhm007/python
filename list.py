@@ -1,5 +1,7 @@
 => sequence of various type of data
 =>  list can be defined as a collection of values or items of different types
+=> Mutable
+===================================================
 
 L1 = ["John", 102, "USA"]  
 L2 = [1, 2, 3, 4, 5, 6]  
@@ -44,6 +46,12 @@ print(l5)
 
 ['Mansih']
 ['Mansih', 'Singh']
+
+## Tuples inside list 
+
+Employees = [(101, "Ayush", 22), (102, "john", 29), (103, "james", 45), (104, "Ben", 34)]  
+for i in Employees:
+    print(i)
 
 =========================== Some useful methods===============
 
