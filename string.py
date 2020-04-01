@@ -66,3 +66,22 @@ Integer Value : 10
 Float Value : 3.700000
 String Value : Manish
 
+## String interpolation
+.format method
+f-string (formatted string literals)
+
+print("the {} {} {}".format('fox','brown','quick')) => the fox brown quick
+
+print("the {2} {1} {0}".format('fox','brown','quick')) => the quick brown fox // sets the index
+
+print("the {0} {0} {0}".format('fox','brown','quick')) = > the fox fox fox
+
+print("the {q} {b} {f}".format(f='fox',b='brown',q='quick')) => the quick brown fox
+
+name = "Manish"
+print(f"my name is : {name}") => my name is : Manish
+
+
+
+
+
