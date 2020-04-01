@@ -25,6 +25,11 @@ t2[1]= "Test" => Error : 'tuple' object does not support item assignment
 t2 =  ("Manish","India","Bangalore")
 del(t2[0]) => TypeError : 'tuple' object doesn't support item deletion
 
+t= (1,1,3,4)
+t.count(1) => 2 // countnthe no of occurances of element 
+
+
+
 #
 
 
