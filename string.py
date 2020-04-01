@@ -43,4 +43,26 @@ mystr = "Hello, This is a beautiful world"
 mystr.split()  - Returns a list of Strings. 
 ['Hello,', 'This', 'is', 'a', 'beautiful', 'world']
 
+# Multiple line string  - """  """
+""" Hi this is example 
+of multiline String """
+
+===========================================String Operators===================================
+
++	concatenation operator used to join the strings
+*	repetition operator. t concatenates the multiple copies of the same string.
+[]	slice operator. It is used to access the sub-strings of a particular string.
+[:]	range slice operator. It is used to access the characters from the specified range.
+in/not in 	It is known as membership operator. returns True/False based on search result.
+%	It is used to perform string formatting. 
+
+# Format Specifiers 
+integer = 10
+Float = 3.7
+String = "Manish"
+print("Integer Value : %d \nFloat Value : %f\nString Value : %s"%(integer,Float,String))
+
+Integer Value : 10 
+Float Value : 3.700000
+String Value : Manish
 
