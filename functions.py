@@ -59,8 +59,32 @@ def myfunc(*args):
 print(myfunc(3,4,6,12,23,44)) => [4, 6, 12, 44]
 
 
+#  map demo
+
+def cal_square(num):
+    return num**2
+
+mylist =[1,2,3,4,5]
+list(map(cal_square,mylist)) => map takes te function and applies over every item 
+for item in map(cal_square,mylist):
+    print(item)
+
 ## Lambda expression :
 = anonymous function , one time use , no name 
+lambda num : num ** 2 => no name , lambda keyword is used , no return statement
+ square = lambda num : num **2  => can be assigned to any varibale
+
+list(map(lambda num : num **2,mylist))
+
+names = ['Manish','Kumar','Singh']
+list(map(lambda x: x[0],names)) => returns first letter of names item
+['M', 'K', 'S']
+
+list(map(lambda x : x[::-1],names)) => reverses string
+['hsinaM', 'ramuK', 'hgniS'] 
+
+
+
 
 
 
